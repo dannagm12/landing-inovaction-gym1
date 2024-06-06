@@ -1,0 +1,125 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>innovaction gym</title>
+    <style>
+ *{
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI';
+}
+.banner{
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url(1.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fff;
+}
+.navbar{
+    width: 85%;
+    margin: auto;
+    padding: 10px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo{
+    width: 120px;
+    cursor: pointer;
+}
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    position: relative;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+}
+.navbar ul li::after{
+    content: '';
+    height: 3px;
+    width: 0;
+    background: #009688;
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    transition: 0.5s;
+}
+.navbar ul li:hover::after{
+    width: 100%;
+}
+.content{
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+    color: #fff;
+}
+.content h1{
+    font-size: 70px;
+    margin-top: 80px;
+}
+.content p{
+    margin: 20px auto;
+    font-weight: 100;
+    line-height: 25px;
+
+}
+span{
+    background: #009688;
+    height: 100%;
+    width: 0;
+    border-radius: 25px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    z-index: -1;
+    transition: 0.5s;
+}
+.p1{
+    text-align: left;
+}
+    </style>
+    <script type="text/javascript">
+        function redirect()
+        {
+            window.location.href="parte2.html"
+        }
+    </script>
+</head>
+<body>
+    <div class="banner">
+        <div class="navbar">
+            <img src="logo.jpeg" class="logo">
+        <ul>
+            <li><a href="parte2.html">TEC INNOVATION NIGHTS</a></li>
+            <li><a href="objetivos.html">objetivos</a></li>
+            <li><a href="estructura.html">Estructura del Evento </a></li>
+            <li><a href="beneficios.html">Beneficios para los Participantes</a></li>
+            <li><a href="multimedia.html">multimedia</a></li>    
+        </ul>
+    </div>
+        <div class="content">
+            <h1>Innovaction Gym</h1>
+            <p>Es un centro de creatividad, diseño, innovacion<br> y empredimiento tecnológico 
+                la Escuela de Ingieneria del Tec de Monterrey<br> </p>
+                <p>Aqui encontraras las capacidades cociminetos<br> y colaboraciones para convertir tus ideas en innovaciones </p>
+            <br>
+            <br>
+            <a href="https://www.facebook.com/InnovactionGym"><img src="face.jpeg" width="50" height="50" alt="imagen" style="cursor: pointer;"></a>
+            <a href="https://www.instagram.com/innovactiongymsur/"><img src="ig.jpeg" width="50" height="50" alt="imagen" style="cursor: pointer;"></a>
+            <a href="https://www.youtube.com/@tecdemonterreyescueladeing3723"><img src="you.jpeg" width="50" height="50" alt="imagen" style="cursor: pointer;"></a>
+
+        </div>
+    </div>
+</body>
+</html>
